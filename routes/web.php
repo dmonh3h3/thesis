@@ -22,6 +22,9 @@ Route::get('/dashboard', function () {
 Route::get('/auth', function () {
     return view('welcome');
 });
+Route::get('/test', function () {
+    return view('welcome');
+});
 Route::get('halo', function () {
     return 'hai dunia';
 });
